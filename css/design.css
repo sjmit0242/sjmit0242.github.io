@@ -7,7 +7,7 @@ h1{
 
 }
 .ss{
-    background-image: url('\resources\images\intro.gif');
+    background-image: url('/resources/images/intro.gif');
     background-size: cover;
 }
 p {
