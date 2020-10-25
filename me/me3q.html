@@ -1,160 +1,179 @@
 <html>
-    <head>
 
-        <!-- Required meta tags !-->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
 
-        <title>SJMIT notes</title>
+  <!-- Required meta tags !-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS !-->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+  <title>SJMIT notes</title>
 
-        <style>
-          .footer {
-            
-            background-color: #1b2631;
-            padding: 10px;
-            text-align: center;
-            color: #f7f4ef;
-          }
-        </style>
-    </head>
-       <body style="background-color: #fab300">
-        <header>
-            <img src="resources/images/intro.gif" class="img-fluid h-5" alt="Responsive image">
-        </header>
-        
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand mb-0 h1" href="../index.html">SJMIT Notes</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+  <!-- Bootstrap CSS !-->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Notes</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                               <a class="dropdown-item" href="../first/first.html">First Year</a>
+  <style>
+    .footer {
 
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../cse/cse.html">Computer Science</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../ee/ee.html">Electrical</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../ec/ec.html">Electronics</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../me/me.html">Mechanical</a>
-								  <div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="../c/c.html">Civil</a>
-                            </div>
-                        </li>
-							<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Question Bank</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../first/firstq.html">First Year</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../cse/cseq.html">Computer Science</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../ee/eeq.html">Electrical</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../ec/ecq.html">Electronics</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../me/meq.html">Mechanical</a>
-								  <div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="../c/cq.html">Civil</a>
-                            </div>
-                        </li>
-						<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lab Materials</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../first/firstl.html">First Year</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../cse/csel.html">Computer Science</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../ee/eel.html">Electrical</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../ec/ecl.html">Electronics</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../me/mel.html">Mechanical</a>
-								  <div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="../c/cl.html">Civil</a>
-                            </div>
-                        </li>
-						<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Syllabus</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../first/firsts.html">First Year</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../cse/cses.html">Computer Science</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../ee/ees.html">Electrical</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../ec/ecs.html">Electronics</a>
-								  <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../me/mes.html">Mechanical</a>
-								  <div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="../c/cs.html">Civil</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../about.html" tabindex="-1" aria-disabled="true">About</a>
-                        </li>
-                    </ul>
-                   
-                </div>
-            </nav>
-        </header>
-		<script src="js/jquery-3.4.1.min.js"></script>
+      background-color: #1b2631;
+      padding: 10px;
+      text-align: center;
+      color: #f7f4ef;
+    }
+  </style>
+</head>
 
-        <script src="js/bootstrap.bundle.min.js"></script>
-		<h4 align="center"> <u>ME SEM-3 QUESTION PAPERS</u></h4>
+<body style="background-color: #fab300">
+  <header>
+    <img src="resources/images/intro.gif" class="img-fluid h-5" alt="Responsive image">
+  </header>
 
-<p>
-  <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
-    M3
-  </a>
-</p>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand mb-0 h1" href="../index.html">SJMIT Notes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<p>
-  <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-    MATERIALS SCIENCE
-  </a>
-</p>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Notes</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../first/first.html">First Year</a>
 
-<p>
-  <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
-    BASIC THERMODYNAMICS
-  </a>
-</p>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../cse/cse.html">Computer Science</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../ee/ee.html">Electrical</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../ec/ec.html">Electronics</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../me/me.html">Mechanical</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../c/c.html">Civil</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Question Bank</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../first/firstq.html">First Year</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../cse/cseq.html">Computer Science</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../ee/eeq.html">Electrical</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../ec/ecq.html">Electronics</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../me/meq.html">Mechanical</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../c/cq.html">Civil</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Lab Materials</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../first/firstl.html">First Year</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../cse/csel.html">Computer Science</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../ee/eel.html">Electrical</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../ec/ecl.html">Electronics</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../me/mel.html">Mechanical</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../c/cl.html">Civil</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Syllabus</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../first/firsts.html">First Year</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../cse/cses.html">Computer Science</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../ee/ees.html">Electrical</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../ec/ecs.html">Electronics</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../me/mes.html">Mechanical</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../c/cs.html">Civil</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about.html" tabindex="-1" aria-disabled="true">About</a>
+        </li>
+      </ul>
 
-<p>
-  <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
-    MECHANICS OF MATERIALS
-  </a>
-</p>
+    </div>
+  </nav>
+  </header>
+  <script src="js/jquery-3.4.1.min.js"></script>
 
-<p>
-  <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
-    METAL CASTING AND WELDING/MACHINE TOOLS AND OPERATIONS
-  </a>
-</p>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <h4 align="center"> <u>ME SEM-3 QUESTION PAPERS</u></h4>
 
-<p>
-  <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
-    COMPUTER AIDED MACHINE DRAWING
-  </a>
-</p>
+  <p>
+    <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse"
+      href="https://drive.google.com/file/d/1dcFJWun5tqVJVmlYM46kxnj8Fqwt1Bge/view?usp=sharing" role="button"
+      aria-expanded="false" aria-controls="collapseExample">
+      M3
+    </a>
+  </p>
 
-<div class="footer">
-  <p>© All Rights Reserved, 2020 :SJMIT(CTA)</p>
-</div>
+  <p>
+    <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse"
+      href="https://drive.google.com/file/d/1dcFJWun5tqVJVmlYM46kxnj8Fqwt1Bge/view?usp=sharing" role="button"
+      aria-expanded="false" aria-controls="collapseExample">
+      MATERIALS SCIENCE
+    </a>
+  </p>
 
-    </body>
+  <p>
+    <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse"
+      href="https://drive.google.com/file/d/1dcFJWun5tqVJVmlYM46kxnj8Fqwt1Bge/view?usp=sharing" role="button"
+      aria-expanded="false" aria-controls="collapseExample">
+      BASIC THERMODYNAMICS
+    </a>
+  </p>
+
+  <p>
+    <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse"
+      href="https://drive.google.com/file/d/1dcFJWun5tqVJVmlYM46kxnj8Fqwt1Bge/view?usp=sharing" role="button"
+      aria-expanded="false" aria-controls="collapseExample">
+      MECHANICS OF MATERIALS
+    </a>
+  </p>
+
+  <p>
+    <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse"
+      href="https://drive.google.com/file/d/1dcFJWun5tqVJVmlYM46kxnj8Fqwt1Bge/view?usp=sharing" role="button"
+      aria-expanded="false" aria-controls="collapseExample">
+      METAL CASTING AND WELDING/MACHINE TOOLS AND OPERATIONS
+    </a>
+  </p>
+
+  <p>
+    <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse"
+      href="https://drive.google.com/file/d/1dcFJWun5tqVJVmlYM46kxnj8Fqwt1Bge/view?usp=sharing" role="button"
+      aria-expanded="false" aria-controls="collapseExample">
+      COMPUTER AIDED MACHINE DRAWING
+    </a>
+  </p>
+
+  <div class="footer">
+    <p>© All Rights Reserved, 2020 :SJMIT(CTA)</p>
+  </div>
+
+</body>
 
 
 </html>
